@@ -161,3 +161,9 @@ h1 {
     grid-column: lewastart / prawastop;
     grid-row: gorastart / gorastop;
 }
+
+.artykuly {
+    grid-column: zajawkistart / zajawkistop;
+    grid-row: artykulstart / artykulstop;
+
+}
