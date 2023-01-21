@@ -1,0 +1,62 @@
+body {
+    background-color: darkgray;
+}
+
+h2 {
+    background-color: red;
+}
+
+[id="czerwonypar"] {
+    background-color: green;
+}
+
+/*
+#czerwonypar {
+    background-color: green;
+}
+*/
+
+div > textarea[name="komentarz"] {
+    background-color: rgb(255, 128, 0);
+}
+
+.tabelameteo {
+    background-color: blue;
+}
+
+.tabelameteo th {
+    background-color: red;
+}
+
+.tabelafinanse {
+    background-color: rgb(0, 255, 17);
+}
+
+.tabelafinanse th {
+    background-color: rgb(43, 0, 255);
+}
+
+img {
+    width: 25%;
+}
+
+body {
+    margin: 0;
+}
+
+.zerosizefont {
+    font-size: 0;
+}
+
+.zerosizefont span {
+    font-size: 12px;
+}
+
+
+.ziel {
+    color: rgb(1, 65, 6);
+}
+
+.czer {
+    color: red;
+}

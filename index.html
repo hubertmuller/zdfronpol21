@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasz dokument</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    div > textarea[name="komentarz"] {
+        background-color: rgb(255, 128, 0);
+    }
+    </style>
+</head>
+
+<body id="a1" class="c1 test2">
+    <h1>Informacje o wizytach w 
+        Szpitalu</h1>
+    <p id="a2">
+        Prosimy<br>
+        o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dokładne 
+        przeczytanie i&nbsp;zaznajomienie sie
+         z&nbsp;niniejszymi informacjami
+    </p>
+
+    <p class="zerosizefont">
+        <img 
+        src="img/mapa.png" 
+        alt="Mapa województwa mazowieckiego">
+
+
+        <img 
+        src="img/mapa.png" 
+        alt="Mapa województwa mazowieckiego">
+
+        <img 
+        src="img/mapa.png" 
+        alt="Mapa województwa mazowieckiego">
+
+
+
+        <img 
+        src="img/mapa.png" 
+        alt="Mapa województwa mazowieckiego">
+        
+        <span>To jest przyklad</span>
+    </p>
+
+    <p>
+        <span class="ziel">Wszystko co ważne 
+        piszemy</span> na 
+        <span class="czer">czerwono</span>
+    </p>
+
+    <p>
+        <div class="ziel">Wszystko co ważne 
+        piszemy</div> na 
+        <div class="czer">czerwono</div>
+    </p>
+
+    <a href="https://onet.pl" target="mojatabka">Formularz</a>
+    <a href="mailto:e@e.pl">Napisz maila</a>
+    <a href="tel:504985231">504985231</a>
+
+    <a href="#koniec">Lokalny link</a>
+    <p>
+        Aby utworzyc tabele 
+        uzywamy znacznika: &lt;table&gt; 
+            i zamykamy go:
+        &lt;/table&gt; &copy; &reg; &hellip;...
+
+    </p>
+
+    <h2>najpopularniejsze napoje w Polsce</h2>
+    <ul>
+        <li id="a3" class="c1 test2">kawa espresso</li>
+        <li  class="c1 test3">herbata</li>
+        <li>inne napoje</li>
+        <ul>
+            <li>matcha</li>
+            <li>cola</li>
+            <ol>
+                <li>Pepsi</li>
+                <li>Coca Cola</li>
+            </ol>
+        </ul>
+    </ul>
+
+    <ol>
+        <li>premier</li>
+        <li>minister</li>
+    </ol>
+
+    <h2>Historia temperatur średnich w Europie</h2>
+    <p id="czerwonypar">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut vel quisquam ducimus, incidunt totam, rem a hic
+        deleniti tempora ipsum voluptas aut cum odit iste velit libero, ex cupiditate dicta?
+    </p>
+    <table class="tabelameteo">
+        <caption>Średnie temperatury w Europie w ostatnich 100 latach</caption>
+        <thead>
+            <tr>
+                <th>Rok</th>
+                <th>Srednia temperatura</th>
+                <th>Amplituda roczna</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2020</td>
+                <td rowspan="2">12</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td colspan="2">11</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <th>Srednia:</th>
+                <td>13</td>
+            </tr>
+        </tfoot>
+    </table>
+    <a id="koniec"></a>
+    <form action="index2.html">
+        <label for="fimie">Imię</label>
+        <input type="text" name="imie" placeholder="wprowadz imie" id="fimie" value="Jan Maria" accesskey="i" tabindex="4">
+        <label for="fnazw">Nazwisko</label>
+        <input type="text" name="nazwisko" value="Nowak" id="fnazw" accesskey="n" tabindex="2">
+        <input type="text" name="wiek" value="18" accesskey="w"  tabindex="3">
+        <input type="password" name="haslo" value="haslopoczatkowe" tabindex="1">
+        <input type="hidden" name="ukryte" value="67">
+        <select name="dzieci" size="1" disabled tabindex="5">
+            <option value="" selected disabled>Wybierz ilosc dzieci</option>
+            <option value="1">jeden</option>
+            <option value="2">dwa</option>
+            <option value="3">trzy</option>
+
+            <option value="1">jeden</option>
+            <option value="2">dwa</option>
+            <option value="3">trzy</option>
+            <option value="1">jeden</option>
+            <option value="2">dwa</option>
+            <option value="3">trzy</option>
+            <option value="1">jeden</option>
+            <option value="2">dwa</option>
+            <option value="3">trzy</option>
+            <option value="1">jeden</option>
+            <option value="2">dwa</option>
+            <option value="3">trzy</option>
+            <option value="1">jeden</option>
+            <option value="2">dwa</option>
+            <option value="3">trzy</option>
+        </select>
+        <div>
+            <textarea name="komentarz" disabled  tabindex="6">Testowa wartosc</textarea>
+        </div>
+        <input type="radio" name="plec" value="m" disabled  tabindex="7">
+        <input type="radio" name="plec" value="k" checked tabindex="8">
+
+        <input type="radio" name="nat" value="p" checked  tabindex="9">
+        <input type="radio" name="nat" value="s"  tabindex="10">
+
+        <input type="checkbox" name="poczestunek" value="h" checked disabled   tabindex="13">
+        <input type="checkbox" name="poczestunek" value="k" disabled   tabindex="12">
+        <input type="checkbox" name="poczestunek"  value="c"  tabindex="11">
+
+        <input type="text" name="kolor">
+
+        <input type="submit" tabindex="14">
+    </form>
+
+
+    <table class="tabelafinanse">
+        <caption>Dane finans</caption>
+        <thead>
+            <tr>
+                <th>Rok</th>
+                <th>Srednia temperatura</th>
+                <th>Amplituda roczna</th>
+            </tr>
+        </thead>
+    </table>
+
+    <table class="tabelafinanse">
+        <caption>Dane finans</caption>
+        <thead>
+            <tr>
+                <th>Rok</th>
+                <th>Srednia temperatura</th>
+                <th>Amplituda roczna</th>
+            </tr>
+        </thead>
+    </table>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+    border: 1px solid red; 
+    border-collapse: collapse;
+}     
+
+caption {
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    padding: 10px;
+    font-size: 20px;
+    background-image: url(../img/mapa.png);
+}
+
+th, td {
+    border: 1px solid red;
+    text-align: left;
+    padding: 10px;
+    font-weight: normal;
+}
+
+td {
+    height: 45px;
+}
+
+tr {
+    background-color: #c9bdbd;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: #ffcdcd;
+}
+
+tbody > tr:hover {
+    background-color: rgba(255,127,127);
+    font-size: 18px;
+}
+
+.naglowek {
+    background-color: #830000;
+    color: #dddddd;
+}
+
+th.m {
+    width: 150px;
+} 
+
+th.st {
+    width: 50px;
+} 
+
+td:nth-last-child(1) {
+    background-color: red;
+}
+
+tr:hover > td:nth-last-child(1) {
+    background-color: transparent;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-size: 50pt;
+}
