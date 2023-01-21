@@ -69,3 +69,36 @@ h1 {
     font-family: 'Open Sans';
     font-size: 50pt;
 }
+
+.zajawka {
+    background-image: url('../img/leki.webp');
+    width: 300px;
+    height: 200px;
+}
+
+.zajawka--nadtytul {
+    background-color: rgb(206, 0, 0);
+    color: white;
+    padding: 10px;
+    width: 50%;
+}
+
+.zajawka--tytul {
+    font-size: 16pt;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.zajawka--tytul:hover {
+    text-decoration: underline;
+}
+
+.zajawka--lead {
+    font-size: 14pt;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background-color: rgba(255,255,255,0.4);
+}
