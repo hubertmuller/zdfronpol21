@@ -151,6 +151,7 @@ h1 {
     grid-template-columns: [lewastart] 100px 
                            [lewastop zajawkistart] auto 
                            [zajawkistop prawastart] 200px [prawastop];
+    /*grid-template-columns: 100px auto 200px;*/
     grid-template-rows: [gorastart] 100px 
                         [gorastop dolstart] 
                         auto [dolstop artykulstart] auto [artykulstop];
@@ -159,6 +160,7 @@ h1 {
 .belkagorna {
     background-color:green;
     grid-column: lewastart / prawastop;
+    /*grid-column: 0 / 2 */
     grid-row: gorastart / gorastop;
 }
 
@@ -169,7 +171,26 @@ h1 {
 }
 
 .menu {
-    grid-column: prawastart / prawastop;
-    grid-row: dolstart / artykulstop;
-    background-color:bisque;
+    background-color: bisque;
+    position: fixed;
+    width: 180px;
+    top: 100px;
+    right: 10px;
+    padding: 0;
+}
+
+.menu > a {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+    }
+
+.menu > a:hover {
+    display: block;
+    background-color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
 }
