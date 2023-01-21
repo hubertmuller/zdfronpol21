@@ -71,23 +71,48 @@ h1 {
 }
 
 .zajawka {
-    background-image: url('../img/leki.webp');
     width: 300px;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-size: 100% auto;
+    background-position-y: 50%;
     height: 200px;
+    position: relative;
+    margin: 20px;
+    background-image: url(../img/mapa.png);
+    border-radius: 5px;
+}
+
+.zajawka__duzy {
+    width: 450px;
+}
+
+.zajawka__leki {
+    background-image: url(../img/leki.webp);
 }
 
 .zajawka--nadtytul {
     background-color: rgb(206, 0, 0);
     color: white;
     padding: 10px;
-    width: 50%;
+    width: 35%;
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
 }
 
 .zajawka--tytul {
-    font-size: 16pt;
+    font-size: 14pt;
     font-weight: bold;
     color: white;
     text-decoration: none;
+    position: absolute;
+    bottom: 75px;
+    left: 27px;
+}
+
+.zajawka--tytul__dramat {
+    color: rgb(195, 0, 0);
 }
 
 .zajawka--tytul:hover {
@@ -101,4 +126,19 @@ h1 {
     color: black;
     padding: 5px;
     background-color: rgba(255,255,255,0.4);
+    position: absolute;
+    bottom: 10px;
+    left: 22px;
+    right: 10px;
+    margin: 0;
+}
+
+.zajawki {
+    display: flex;
+    flex-wrap: wrap;
+    height: 550px;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
