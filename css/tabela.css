@@ -167,3 +167,9 @@ h1 {
     grid-row: artykulstart / artykulstop;
 
 }
+
+.menu {
+    grid-column: prawastart / prawastop;
+    grid-row: dolstart / artykulstop;
+    background-color:bisque;
+}
